@@ -1,0 +1,138 @@
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mkdir txt
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mv *.txt txt/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ cd txt
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mkdir 2016
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mv 2016*.txt txt/
+mv: target 'txt/': No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mv 2016*.txt 2016/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ cd 2016
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 01
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_01*.txt 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 02
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_02*.txt 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 03
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_03*.txt 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 04
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_04*.txt 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 05
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_05*.txt 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 06
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_06*.txt 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 07
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_07*.txt 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 08
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_08*.txt 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 09
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_09*.txt 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 10
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_10*.txt 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 11
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_11*.txt 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mkdir 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ mv 2016_12*.txt 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ cd txt
+bash: cd: txt: No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2016$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mkdir 2017
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mv 2017*.txt 2017/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ cd 2017
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mkdir 01
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_01*.txt 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mkdir 02 04 05 06 07 08 09 10 11 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_02*.txt 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_03*.txt 03/
+mv: target '03/': No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mkdir 03
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_03*.txt 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_04*.txt 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_05*.txt 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_06*.txt 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_07*.txt 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_08*.txt 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_09*.txt 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_10*.txt 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_11*.txt 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ mv 2017_12*.txt 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2017$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mkdir 2018
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ cd 2018
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018*.txt 2018/
+mv: cannot stat '2018*.txt': No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ mv 2018*.txt 2018/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ cd 2018
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_01*.txt 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_02*.txt 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_03*.txt 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_04*.txt 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_05*.txt 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_06*.txt 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_07*.txt 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_08*.txt 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_08*.txt 09/
+mv: cannot stat '2018_08*.txt': No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_09*.txt 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_10*.txt 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_11*.txt 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ mv 2018_12*.txt 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt/2018$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/txt$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mkdir ann
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mv *.ann ann/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ cd ann
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ mkdir 2016 2017 2018
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ mv 2016*.ann 2016/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ mv 2017*.ann 2017/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ mv 2018*.ann 2018/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ cd 2016
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_01*.ann 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_02*.ann 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_03*.ann 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_04*.ann 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_05*.ann 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_06*.ann 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_07*.ann 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_08*.ann 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_09*.ann 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_10*.ann 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_11*.ann 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ mv 2016_12*.ann 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2016$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ cd 2017
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_01*.ann 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_02*.ann 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_03*.ann 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_04*.ann 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_05*.ann 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_06*.ann 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_07*.ann 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_08*.ann 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_09*.ann 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_10*.ann 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_11*.ann 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ mv 2017_12*.ann 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ cd 2018
+bash: cd: 2018: No such file or directory
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2017$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ cd 2018
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_01*.ann 01/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_02*.ann 02/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_03*.ann 03/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_04*.ann 04/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_05*.ann 05/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_06*.ann 06/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_07*.ann 07/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_08*.ann 08/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_09*.ann 09/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_10*.ann 10/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_11*.ann 11/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ mv 2018_12*.ann 12/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann/2018$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers/ann$ cd ..
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mkdir img
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ mv *.jpg img/
+melissa@melissa-HP-Laptop-15s-eq2xxx:~/Downloads/PPE EXERCICE/Fichiers$ 
