@@ -10,6 +10,3 @@ Concernant l'exercice à réaliser :
 
 J'ai bien saisi les instructions à suivre et je pense avoir respecté les consignes. Cependant, dans mon script, il n'y a pas de représentation visuelle de l’arborescence en question. Je me demande donc si cette représentation est abstraite, ce qui signifierait que si nous schématisons nos commandes sur du papier, cela serait suffisant pour la visualiser, ou si elle doit réellement apparaître de manière visuelle dans le terminal.
 
--> J'ai cloné le dépot git sur ma machine!!
-On peut vérifier qu'on est en retard par rapport à la version en ligne en lançant la commande "git status"
-Et pour répercuter les changements du dépôt sur notre machine, on utilise la commande "git pull"
