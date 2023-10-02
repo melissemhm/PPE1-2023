@@ -1,4 +1,4 @@
- //  Journal PPE //
+ #Journal de bord du projet encadré
  
 Je vais commencer par l'Install Party, qui ne s'est pas bien passé pour moi car mon ordi a rencontré des problèmes à chaque étape du processus. Heureusement, les enseignants étaient là pour nous aider, en particulier Monsieur Pierre, qui m'a soutenu du début à la fin. Mais, vers la fin de la journée, j'ai été confronté à un bug majeur, et étant donné l'heure avancée, j'ai été conseillé de reporter sa résolution à plus tard. Finalement, j'ai dû abandonner et acheter un nouvel ordinateur. J'ai dû tout réinstaller par moi-même, j’ai installé ubuntu mais je l’ai fait en dual boot j'espère que je vais pas le regretter.
 
