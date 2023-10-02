@@ -10,6 +10,18 @@ Concernant l'exercice à réaliser :
 
 J'ai bien saisi les instructions à suivre et je pense avoir respecté les consignes. Cependant, dans mon script, il n'y a pas de représentation visuelle de l’arborescence en question. Je me demande donc si cette représentation est abstraite, ce qui signifierait que si nous schématisons nos commandes sur du papier, cela serait suffisant pour la visualiser, ou si elle doit réellement apparaître de manière visuelle dans le terminal.
 
--> J'ai cloné le dépot git sur ma machine!!
-On peut vérifier qu'on est en retard par rapport à la version en ligne en lançant la commande "git status"
-Et pour répercuter les changements du dépôt sur notre machine, on utilise la commande "git pull"
+##
+J'ai cloné le dépôt Git sur ma machine avec succès ! J'ai suivi les instructions des exercices sans problème, et j'ai accompli le travail prévu. La fiche TD était très claire, ce qui a facilité les choses.
+
+En ce qui concerne les questions, j'ai répondu aux deux points suivants :
+
+1.Pour vérifier si nous sommes en retard par rapport à la version en ligne, j'ai utilisé la commande "git status", ce qui a bien fonctionné.
+
+2.Pour mettre à jour notre copie locale avec les modifications du dépôt en ligne, j'ai exécuté la commande "git pull".
+
+Cependant, j'ai omis de noter la commande que vous avez mentionnée pour créer une arborescence de fichiers (celle de tree). Pourriez-vous me rappeler quelle commande il s'agit, s'il vous plaît ?
+
+De plus, lorsque j'ai essayé d'utiliser la commande "git log" et que j'ai ensuite appuyé sur 'q' pour quitter, cela n'a pas fonctionné comme prévu. Je vais revoir cette partie et essayer de résoudre ce problème.
+
+Lorsque j'ai exécuté la commande "git status", j'ai remarqué qu'il y avait des modifications apportées au fichier "journal.md" qui n'avaient pas encore été enregistrées dans Git. La sortie de la commande m'a indiqué que pour mettre à jour le fichier avec ces modifications, je devais utiliser la commande "git commit -a"
+
