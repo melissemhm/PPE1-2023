@@ -1,4 +1,4 @@
- #Journal de bord du projet encadré
+ # Journal de bord du projet encadré
  
 Je vais commencer par l'Install Party, qui ne s'est pas bien passé pour moi car mon ordi a rencontré des problèmes à chaque étape du processus. Heureusement, les enseignants étaient là pour nous aider, en particulier Monsieur Pierre, qui m'a soutenu du début à la fin. Mais, vers la fin de la journée, j'ai été confronté à un bug majeur, et étant donné l'heure avancée, j'ai été conseillé de reporter sa résolution à plus tard. Finalement, j'ai dû abandonner et acheter un nouvel ordinateur. J'ai dû tout réinstaller par moi-même, j’ai installé ubuntu mais je l’ai fait en dual boot j'espère que je vais pas le regretter.
 
@@ -10,7 +10,8 @@ Concernant l'exercice à réaliser :
 
 J'ai bien saisi les instructions à suivre et je pense avoir respecté les consignes. Cependant, dans mon script, il n'y a pas de représentation visuelle de l’arborescence en question. Je me demande donc si cette représentation est abstraite, ce qui signifierait que si nous schématisons nos commandes sur du papier, cela serait suffisant pour la visualiser, ou si elle doit réellement apparaître de manière visuelle dans le terminal.
 
-##
+# Séance 2
+ 
 J'ai cloné le dépôt Git sur ma machine avec succès ! J'ai suivi les instructions des exercices sans problème, et j'ai accompli le travail prévu. La fiche TD était très claire, ce qui a facilité les choses.
 
 En ce qui concerne les questions, j'ai répondu aux deux points suivants :
@@ -25,4 +26,7 @@ De plus, lorsque j'ai essayé d'utiliser la commande "git log" et que j'ai ensui
 
 Lorsque j'ai exécuté la commande "git status", j'ai remarqué qu'il y avait des modifications apportées au fichier "journal.md" qui n'avaient pas encore été enregistrées dans Git. La sortie de la commande m'a indiqué que pour mettre à jour le fichier avec ces modifications, je devais utiliser la commande "git commit -a"
 
+# Séance 3
+
+Je suis dans le cours de PPE, on est en train de faire des exercices sur commit reset, on écrit alors des choses qui devront etre supprimé par la suite 
 
