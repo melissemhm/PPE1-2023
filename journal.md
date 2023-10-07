@@ -38,6 +38,10 @@ l'exercice 2 commence par la création d'un nouveau fichier "oups.md" pour cela,
 
 j'ai commencé l'écriture sur mon nouveau fichier, J'ai déjà exécuté les commandes "git add" et "git commit" pour ajouter mes premières modifications, et je prévois de répéter ces étapes une fois de plus. 
 
+J'ai réussi à copier les modifications réalisées sur "oups.md" vers le fichier "journal.md". Cependant, je dois avouer que j'étais un peu perdu lorsque j'ai essayé de supprimer le fichier "oups.md". À chaque fois, j'ai rencontré un nouveau problème. Initialement, j'ai utilisé la commande "git rm oups.md", mais cela n'a pas fonctionné. Ensuite, j'ai essayé "git reset oups.md", ce qui a eu pour conséquence que Git ne reconnaissait plus la présence de ce fichier. Finalement, j'ai opté pour la méthode "rm oups.md", qui a fonctionné. 
+A la fin, j'ai utilisé les commandes "git add" et "git commit" pour enregistrer les modifications apportées au fichier "journal.md".
+
+
 
 
 
