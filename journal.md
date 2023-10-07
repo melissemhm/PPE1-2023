@@ -28,11 +28,10 @@ De plus, lorsque j'ai essayé d'utiliser la commande "git log" et que j'ai ensui
 
 Lorsque j'ai exécuté la commande "git status", j'ai remarqué qu'il y avait des modifications apportées au fichier "journal.md" qui n'avaient pas encore été enregistrées dans Git. La sortie de la commande m'a indiqué que pour mettre à jour le fichier avec ces modifications, je devais utiliser la commande "git commit -a"
 
-j'écrit des choses inutiles, ces lignes seront supprimé plus tard, c'est juste un test des commandes de la séance trois.
-
 # Séance 3 :
 
 Dans la séance n°3, on a vu les commandes pour corriger les erreurs sur Git,  c'était clair!
+
 
 
 
