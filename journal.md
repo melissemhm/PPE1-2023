@@ -32,6 +32,11 @@ Lorsque j'ai exécuté la commande "git status", j'ai remarqué qu'il y avait de
 
 Dans la séance n°3, on a vu les commandes pour corriger les erreurs sur Git,  c'était clair!
 
+L'exercice 1 était plutôt simple. J'avais un problème lorsque j'ai utilisé la commande "git reset", c'est pourquoi j'ai opté pour la commande "git revert".
+
+l'exercice 2 commence par la création d'un nouveau fichier "oups.md" pour cela, j'ai utilisé la commande "touch".
+
+j'ai commencé l'écriture sur mon nouveau fichier, J'ai déjà exécuté les commandes "git add" et "git commit" pour ajouter mes premières modifications, et je prévois de répéter ces étapes une fois de plus. 
 
 
 
