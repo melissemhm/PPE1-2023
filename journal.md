@@ -28,6 +28,8 @@ Lorsque j'ai exécuté la commande "git status", j'ai remarqué qu'il y avait de
 
 Je suis dans le cours de PPE, on est en train de faire des exercices sur commit reset, on écrit alors des choses qui devront etre supprimé par la suite 
 
+j'écrit des choses inutiles, ces lignes seront supprimé plus tard, c'est juste un test des commandes de la séance trois.
+
 # Séance 3
 
 
