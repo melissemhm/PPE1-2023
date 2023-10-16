@@ -41,6 +41,32 @@ j'ai commencé l'écriture sur mon nouveau fichier, J'ai déjà exécuté les co
 J'ai réussi à copier les modifications réalisées sur "oups.md" vers le fichier "journal.md". Cependant, je dois avouer que j'étais un peu perdu lorsque j'ai essayé de supprimer le fichier "oups.md". À chaque fois, j'ai rencontré un nouveau problème. Initialement, j'ai utilisé la commande "git rm oups.md", mais cela n'a pas fonctionné. Ensuite, j'ai essayé "git reset oups.md", ce qui a eu pour conséquence que Git ne reconnaissait plus la présence de ce fichier. Finalement, j'ai opté pour la méthode "rm oups.md", qui a fonctionné. 
 A la fin, j'ai utilisé les commandes "git add" et "git commit" pour enregistrer les modifications apportées au fichier "journal.md".
 
+# Séance 4 :
+
+La quatrième séance s'est révélée un peu complexe pour moi, et j'ai trouvé que le rythme était rapide. J'ai eu des difficultés à suivre toutes les commandes fournies par les enseignants, et même pendant les exercices en classe, je n'arrivais pas à faire les commandes de manière autonome.
+
+Lors de ma révision, j'ai passé en revue toute la notion de redirection, ce qui m'a permis de mieux la comprendre. En ce qui concerne les exercices impliquant des scripts, je les ai trouvés un peu difficiles, surtout le premier exercice et je ne comprends pas vraiment ce qui est vraiment demandé.C'est pourquoi j'ai été contraint de les aborder selon ma propre interprétation.
+
+Pour la première question du premier exercice, j'ai conçu un script qui exécute la commande suivante : `cat ./$annee// | grep -c "$entite." Pour réaliser cela, j'ai employé deux arguments, à savoir "annee" et "entite." Cependant, je ne suis pas sûr s'il est nécessaire de prendre les deux arguments comme je l'ai fait, ou si il était demandé de faire seulement l'argument de "entite".
+
+En ce qui concerne la deuxième question, j'ai pris trois années comme arguments (annee1, annee2, annee3) et un argument pour "entite," et j'ai exécuté le script exo1.sh avec ces valeurs pour chaque année en utilisant le même "entite."
+
+Pour l'exercice 02, j'ai créé un script pour établir un classement des lieux les plus mentionnés dans les fichiers. Je n'ai pas précisé l'année ni le mois, ce qui semble être la réponse à la dernière question de l'exercice. Autrement dit, si la question concernait les années ou les mois, je pourrais utiliser des variables en tant qu'arguments pour les spécifier, ce qui répondrait à la deuxième question.
+
+La commande que j'ai utilisée était la suivante : cat ./*/*/* | grep Location | cut -f 3 | sort | uniq -c | sort -nr | head -20. J'ai spécifié que je voulais les 20 villes les plus fréquemment citées.
+
+Pour répondre à la deuxième question, où il était nécessaire de considérer l'année, le mois et le nombre de lieux à afficher, j'ai pris en compte quatre arguments distincts :
+
+    annee="$1"
+    mois="$2"
+    nombre_de_lieux="$3"
+    fichiers="./$annee/$mois/*"
+
+Par la suite, j'ai exécuté la commande suivante afin de créer un classement des lieux les plus fréquemment cités dans les fichiers spécifiques à l'année et au mois indiqués :
+cat $fichiers | grep Location | cut -f 3 | sort | uniq -c | sort -nr | head -$nombre_de_lieux
+
+Je vais finaliser les modifications sur mon journal de bord, puis je prévois de le téléverser sur mon dépôt GitHub en utilisant les commandes "git add" et "git commit", comme on a eu l'habitude de le faire. De plus, je vais créer un répertoire dédié pour y placer les scripts de mes exercices. Enfin, je vais établir un tag et le pousser vers le dépôt.
+
 
 
 
