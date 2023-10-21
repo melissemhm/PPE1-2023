@@ -67,6 +67,27 @@ cat $fichiers | grep Location | cut -f 3 | sort | uniq -c | sort -nr | head -$no
 
 Je vais finaliser les modifications sur mon journal de bord, puis je prévois de le téléverser sur mon dépôt GitHub en utilisant les commandes "git add" et "git commit", comme on a eu l'habitude de le faire. De plus, je vais créer un répertoire dédié pour y placer les scripts de mes exercices. Enfin, je vais établir un tag et le pousser vers le dépôt.
 
+# Séance 5 :
+
+La séance 5 a été claire pour moi, et j'ai bien compris la notion des instructions conditionnelles. Cela peut sembler contradictoire avec ce que vous avez dit, à savoir que ceux qui n'ont jamais fait de programmation trouveraient cette séance plus claire, mais en réalité, le fait que j'aie déjà compris cette notion en Python m'a aidé à mieux la saisir ici, même si la syntaxe est différente dans le contexte du terminal.
+
+En ce qui concerne les exercices, j'ai suivi les instructions en vérifiant les arguments. Cependant, j'ai rencontré un petit problème de compréhension lié à la séance 4, où je n'avais pas bien compris les scripts.
+Je ne suis pas certaine si vous avez précisé qu'il fallait un seul script pour chaque exercice ou bien c’est vraiment comme j’ai fait; un script pour chaque question. C’est pourquoi j'ai réalisé les exercices de cette semaine en utilisant les mêmes scripts que la semaine précédente.
+De plus, je trouve que la correction des exercices n'était pas très explicite, surtout dans la dernière question de l'exercice 2, où il fallait mettre l'étoile entre guillemets, c'est pourquoi je ne l'avais pas fait.
+
+En ce qui concerne la manipulation du dépôt Git local, je constate une nette amélioration de ma part. Je parviens à le manipuler de manière plus aisée, et je ne rencontre plus les mêmes messages d'erreur qu'au début, où j'ai dû supprimer mon dépôt et le cloner à nouveau.
+Cependant, j'ai été inquiété par ce que M. Pierre a mentionné. Il a parlé du fait que nous devrions avoir des commentaires sur notre GitHub ou dans notre journal, mais pour ma part, je n'en ai jamais reçu. J'espère que c'est simplement dû au fait qu'il n'y a pas eu de commentaires pour l’instant et non parce que mes travaux ne sont pas visibles.
+
+En ce qui concerne le projet, j'ai trouvé un groupe, bien que notre composition ne corresponde pas exactement à ce que vous attendez de nous, puisque deux d'entre nous sont de Nanterre et le troisième est de P3.
+
+La manipulation du terminal pour ouvrir les URL était claire pour moi, mais je n'ai pas totalement compris les consignes du projet.
+
+Je sais que nous devons chercher un mot et choisir trois langues, puis rechercher 50 URL ou corpus où ce mot apparaît. Cependant, je ne suis pas sûre si le mot doit être choisi au hasard ou s'il doit suivre certains critères.
+
+Comme nous n'avons pas de directives précises concernant les critères à suivre, nous avons proposé quelques mots tels que "diversité," "sucre," "univers," "écureuil," "cyanure," "sanglier," ...
+
+
+
 
 
 
