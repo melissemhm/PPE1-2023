@@ -86,7 +86,17 @@ Je sais que nous devons chercher un mot et choisir trois langues, puis recherche
 
 Comme nous n'avons pas de directives précises concernant les critères à suivre, nous avons proposé quelques mots tels que "diversité," "sucre," "univers," "écureuil," "cyanure," "sanglier," ...
 
+# Séance 6 :
 
+La séance 6 consistait à réaliser un mini projet en tant qu'entraînement pour le projet final. Le premier exercice était relativement simple, portant sur la vérification des arguments pour la première question et l'affichage de nombre de ligne avec des tabulation pour la deuxuème question. cependant, au début, j'avais initialisé les tabulations comme une chaîne de caractères, ce qui n'était pas la meilleure approche, comme l'a souligné M. Yoann.
+
+Le deuxième exercice s'est avéré un peu plus complexe. J'ai dû revoir le contenu du cours de la séance 5 plusieurs fois pour pouvoir progresser. Jusqu'à présent, je n'ai pas obtenu le résultat souhaité et demandé. Pour la première question, qui consistait à récupérer le code HTTP, c'était simple. Cependant, la correction des erreurs s'est avérée particulièrement difficile. Pour les codes 404 et 502, il est impossible d'intervenir à mon avis, car ces erreurs proviennent du serveur, mais pour le code de redirection, il est possible de le corriger. Pour ce faire, au début, j'ai créé un autre fichier et, lors de la lecture de chaque ligne d'URL, je la redirigeais vers ce nouveau fichier. Cependant, à force d'essayer d'exécuter et de corriger mes erreurs à chaque fois, cela a commencé à m'afficher des boucles infinies. J'ai dû interrompre cette approche et recommencer en modofiant le même fichier comme demandé, et mon approche m'affiche correctement la nouvelle URL mais le problème réside dans l'affichage du code HTTP.
+
+Normalement, cette ligne : "echo -e "${lineN}\t${nouvelle_url}\t${code}" devrait m'afficher le numéro de ligne, l'URL et le code HTTP. Cependant, elle n'affiche que le numéro de ligne et la nouvelle URL. Pourtant, quand j'essaie de récupérer le code HTTP de la nouvelle URL directement dans le terminal, cela fonctionne. J'ai essayé de nombreuses approches, mais je n'ai pas encore réussi à trouver la faille.
+
+En ce qui concerne la question de l'encodage, j'ai cherché dans le cours de la semaine 5 pour voir si j'avais manqué la commande permettant de trouver l'encodage, mais je ne l'ai pas trouvé, je ne sais pas si c'est juste moi qui l'ai loupé. Je l'ai fait alors avec la commande "file" que j'ai vue dans le cours de GIM, et cela m'affiche le résultat. Cependant, cela pose toujours problème sur la troisième ligne, celle de la redirection, et je ne sais pas comment résoudre ce problème.
+
+Pour le projet, nous nous sommes mis d'accord sur le mot "orgueil" et avons choisi le français, l'espagnol et le turc comme langues sur lesquelles nous allons travailler.
 
 
 
