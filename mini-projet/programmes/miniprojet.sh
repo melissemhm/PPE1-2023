@@ -14,30 +14,28 @@ else
 	fi
 fi
 
+# Début du fichier HTML
+echo "<html>"
+echo "<head><title>Tableau des URLs</title></head>"
+echo "<body>"
+echo "<table border=\"1\">"
+echo "<tr><th>Numéro</th><th>URLs</th><th>Code</th><th>Encodage</th></tr>"
+
 chemin=$1
-
-fichier_mis_a_jour="urls_mis_a_jour.txt"
-
 lineN=1
 
+# Lecture du fichier ligne par ligne et traitement
 while read -r line;
 do
-    if [ $lineN -eq 3 ];
-    then
-        nouvelle_url=$(curl -ILs "$line" | grep -i '^Location:' | cut -d ' ' -f 2-)
-        echo "$nouvelle_url" >> "$fichier_mis_a_jour"
-        encodage=$(echo "$nouvelle_url" | file - | cut -d ' ' -f 2)
-        code=$(curl -I -s "$line" | head -n 1 | cut -d ' ' -f 2)
-        echo -e "${lineN}\t${nouvelle_url}\t${encodage}\t${code}"
-    else
-        echo "$line" >> "$fichier_mis_a_jour"
-        encodage=$(echo "$line" | file - | cut -d ' ' -f 2)
-        code=$(curl -I -s "$line" | head -n 1 | cut -d ' ' -f 2)
-        echo -e "${lineN}\t${line}\t${encodage}\t${code}"
-    fi
-    lineN=$((lineN + 1))
+    code=$(curl -s -I -L -w "%{http_code}" -o /dev/null $line)
+    encodage=$(curl -s -I -L -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+        # Écriture de la ligne du tableau
+    echo "<tr><td>${lineN}</td><td>${line}</td><td>${code}</td><td>${encodage}</td></tr>"
+    lineN=$(expr $lineN + 1)
+
 done < "$chemin"
 
-mv "$fichier_mis_a_jour" "$chemin"
-
-
+# Fin du fichier HTML
+echo "</table>"
+echo "</body>"
+echo "</html>"
