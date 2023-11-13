@@ -98,6 +98,11 @@ En ce qui concerne la question de l'encodage, j'ai cherché dans le cours de la 
 
 Pour le projet, nous nous sommes mis d'accord sur le mot "orgueil" et avons choisi le français, l'espagnol et le turc comme langues sur lesquelles nous allons travailler.
 
+# Séance 7 :
+Au cours de la séance 7, nous avons débuté par la correction du mini-projet, ce qui m'a permis de comprendre mes erreurs et d'appréhender la façon correcte de faire un script fonctionnel pour traiter n'importe quel fichier contenant des URLs. On a poursuivi le cours qui a porté sur HTML, pour pouvoir présenter les résultats de notre script sous forme d'un tableau. C'était assez compliqué, pour ma part, de pouvoir le faire, mais après plusieurs modifications, j'ai pu le faire.
+
+En parallèle, les exercices demandés, portaient sur la manipulation de fichiers texte à l'aide de commandes telles que grep, sort, uniq, paste, et tr. Il y avait des commandes que j'ai déjà manipulées telles que grep, sort, uniq, mais grâce à ces exercices, j'ai appris la commande tr qui effectue des transformations dans un texte et la commande paste pour fusionner les bigrammes mais qui est aussi utilisée pour fusionner les lignes..
+
 
 
 
