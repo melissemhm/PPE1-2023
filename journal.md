@@ -104,6 +104,11 @@ Au cours de la séance 7, nous avons débuté par la correction du mini-projet, 
 En parallèle, les exercices demandés, portaient sur la manipulation de fichiers texte à l'aide de commandes telles que grep, sort, uniq, paste, et tr. Il y avait des commandes que j'ai déjà manipulées telles que grep, sort, uniq, mais grâce à ces exercices, j'ai appris la commande tr qui effectue des transformations dans un texte et la commande paste pour fusionner les bigrammes mais qui est aussi utilisée pour fusionner les lignes..
 
 
+# Séance 8 :
+Au cours de la séance 8, nous avons abordé la correction des exercices précédents. La réalité de la correction s'est avérée plus complexe et détaillée par rapport à mes propres solutions. Ce processus m'a offert un éclairage approfondi sur les meilleures pratiques et les nuances de la manipulation de fichiers texte.
+
+Concernant le travail sur le mini-projet, il a constitué un défi significatif pour moi, étant donné que je n'avais aucune expérience préalable en HTML et CSS. La nécessité d'incorporer le style Bulma dans mon code HTML a ajouté une couche de complexité. J'ai dû consulter plusieurs tutoriels pour corriger mon code HTML et intégrer le style Bulma. La compréhension initiale de ces langages était difficile, mais après plusieurs tentatives et ajustements, je suis parvenue à obtenir un résultat qui me semble assez satisfaisant. Ce processus a renforcé ma persévérance et ma capacité à apprendre de nouvelles technologies.
+
 
 
 
